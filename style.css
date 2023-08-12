@@ -1,0 +1,117 @@
+body {
+    background-image: url('imagenes/jean-philippe-delberghe-75xPHEQBmvA-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+  ul {
+    padding: 0;
+    margin: 0; 
+    margin-left: 550px;
+    position: absolute;
+    top: 95px;
+  }
+  
+  a {
+    font-size: 23px;
+    color: #333;
+    text-decoration: none;
+    padding: 10px;
+    margin-left: 55px;
+  }
+  
+  a:hover {
+    background-color: #f0f0f0;
+  }
+
+  
+
+#Contacto{
+    font-size: 20px;
+}
+
+legend {
+    font-size: 30px;
+}
+
+h1 {
+    font-family: 'Gruppo', sans-serif;
+    font-size: 40px;
+}
+
+h2 {
+    font-family: 'Gruppo', sans-serif;
+    margin-bottom: 40px;
+    font-size: 25px;
+}
+
+h3{
+    margin-bottom: 0%;
+    text-align: center;
+    font-size: 30px;
+    color: #222;
+}
+
+section.estilo-seccion{
+    padding: 50px 40px;
+}
+
+.contenedor-uno{
+position: absolute;
+width: 350px;
+top: 550px;
+left: 750px;
+font-size: 30px;
+text-align:center;
+line-height: 2;
+
+  
+}
+
+.contenedor-dos{
+    position: relative;
+    width: 370px;
+    bottom: 315px;
+    font-size: 22px;
+    text-align: center;
+    left: 35px;
+}
+
+.redes-sociales {
+    display: f;
+    gap: 20px; 
+    position:absolute;
+    top: 2150px;
+    left: 850px;
+  }
+  
+  .icono-redondo {
+    width: 50px;
+    height: 50px; 
+    border-radius: 30%;
+
+      }
+  
+
+section#Contacto {
+    background-color: #595763;
+    border-radius: 10px;
+}
+#First-photo{
+    width: 470px;
+    border-radius: 3%;
+}
+
+#Second-Photo{
+    width: 800px;
+    border-radius: 3%;
+position: relative;
+left: 460px;
+}
+
+#Third-Photo{
+    width: 700px;
+    border-radius: 3%;
+    position: relative;
+    bottom: 100px;
+}
