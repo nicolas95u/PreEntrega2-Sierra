@@ -1,9 +1,3 @@
-body {
-    background-image: url('imagenes/jean-philippe-delberghe-75xPHEQBmvA-unsplash.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
   ul {
     padding: 0;
     margin: 0; 
@@ -114,4 +108,13 @@ left: 460px;
     border-radius: 3%;
     position: relative;
     bottom: 100px;
+}
+
+#carouselExampleFade {
+    height: auto;
+
+}
+
+#carouselExampleFade img {
+height: auto;
 }
