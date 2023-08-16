@@ -1,15 +1,7 @@
-  ul {
-    padding: 0;
-    margin: 0; 
-    margin-left: 550px;
-    position: absolute;
-    top: 95px;
-  }
-  
+
   a {
     font-size: 23px;
     color: #333;
-    text-decoration: none;
     padding: 10px;
     margin-left: 55px;
   }
@@ -19,7 +11,6 @@
   }
 
   
-
 #Contacto{
     font-size: 20px;
 }
@@ -35,7 +26,6 @@ h1 {
 
 h2 {
     font-family: 'Gruppo', sans-serif;
-    margin-bottom: 40px;
     font-size: 25px;
 }
 
@@ -44,39 +34,21 @@ h3{
     text-align: center;
     font-size: 30px;
     color: #222;
+    padding: 30px
 }
 
-section.estilo-seccion{
-    padding: 50px 40px;
-}
 
 .contenedor-uno{
-position: absolute;
-width: 350px;
-top: 550px;
-left: 750px;
-font-size: 30px;
-text-align:center;
 line-height: 2;
-
-  
-}
-
-.contenedor-dos{
-    position: relative;
-    width: 370px;
-    bottom: 315px;
-    font-size: 22px;
-    text-align: center;
-    left: 35px;
+justify-content: center;
+display: flex;
+flex-direction: column;
+text-align: center;
 }
 
 .redes-sociales {
-    display: f;
     gap: 20px; 
-    position:absolute;
-    top: 2150px;
-    left: 850px;
+   
   }
   
   .icono-redondo {
@@ -91,24 +63,6 @@ section#Contacto {
     background-color: #595763;
     border-radius: 10px;
 }
-#First-photo{
-    width: 470px;
-    border-radius: 3%;
-}
-
-#Second-Photo{
-    width: 800px;
-    border-radius: 3%;
-position: relative;
-left: 460px;
-}
-
-#Third-Photo{
-    width: 700px;
-    border-radius: 3%;
-    position: relative;
-    bottom: 100px;
-}
 
 #carouselExampleFade {
     height: auto;
@@ -117,4 +71,13 @@ left: 460px;
 
 #carouselExampleFade img {
 height: auto;
+}
+
+.ajuste {
+display: flex;
+flex-direction: row;
+}
+
+#carouselExampleFade {
+    margin-bottom: 25px;
 }
