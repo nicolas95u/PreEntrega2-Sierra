@@ -10,7 +10,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Gruppo&display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
-</head>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  </head>
 <body>
     <header>
         <h1>Elena Garcia Esteche</h1>
@@ -49,7 +50,9 @@
 
         <div class="container">
           <div class="row">
-              <div class="col-md-6 p-4">
+              <div class="col-md-6 p-4" data-aos="fade-right"
+              data-aos-offset="435"
+              data-aos-easing="ease-in-sine" data-aos-duration="1500">
                   <img src="imagenes/1000068682.jpeg" class="w-100 rounded" alt="Imagen de obra de living">
               </div>
               <div class="col-md-6 contenedor-uno p-4">
@@ -64,7 +67,9 @@
               <div class="col-md-4 contenedor-uno p-4">
                   <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint, corporis quis? Cupiditate alias blanditiis deleniti eum eos voluptate magnam voluptatem.</p>
               </div>
-              <div class="col-md-8 p-4">
+              <div class="col-md-8 p-4" data-aos="fade-down"
+              data-aos-easing="linear"
+              data-aos-duration="1500">
                 <img src="imagenes/20230708_123612.jpeg" class="w-100 rounded padding" alt="Imagen de obra de living">
             </div>
           </div>
@@ -72,7 +77,11 @@
 
         <div class="container">
           <div class="row">
-            <div class="col-md-7 p-5">
+            <div class="col-md-7 p-5" data-aos="fade-zoom-in"
+            data-aos-easing="ease-in-back"
+            data-aos-delay="400"
+            data-aos-offset="10"
+            data-aos-duration="1500">
               <img src="imagenes/20200618_201739 2.jpeg" class="w-100 rounded" alt="Imagen de obra de living">
             </div>
             <div class="col-md-5 d-flex justify-content-center align-items-center">
@@ -100,7 +109,10 @@
             </a>
         </div>
     </footer>
-    
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+      <script>
+        AOS.init();
+      </script>
 </body>
 </html>

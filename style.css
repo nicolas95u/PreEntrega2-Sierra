@@ -33,7 +33,6 @@ h3{
     padding: 30px
 }
 
-
 .contenedor-uno{
 line-height: 2;
 justify-content: center;
@@ -58,6 +57,8 @@ text-align: center;
 section#Contacto {
     background-color: #595763;
     border-radius: 10px;
+    padding: 30px;
+    
 }
 
 #carouselExampleFade {
@@ -93,6 +94,6 @@ flex-direction: row;
 }
 
 #volver-arriba:hover i {
-    color: #ff6600; 
+    color: #121111; 
 }
 
