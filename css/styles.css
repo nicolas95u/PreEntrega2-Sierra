@@ -10,6 +10,9 @@ a:hover {
 
 #Contacto {
   font-size: 20px;
+  background-color: #595763;
+  border-radius: 10px;
+  padding: 30px;
 }
 
 h1, h2, h3 {
@@ -50,33 +53,17 @@ h3 {
   border-radius: 30%;
 }
 
-section#Contacto {
-  background-color: #595763;
-  border-radius: 10px;
-  padding: 30px;
-}
-
-#carouselExampleFade {
-  height: auto;
-}
-#carouselExampleFade img {
-  height: auto;
-}
-
-#carouselExampFade {
-  height: auto;
-}
-#carouselExampFade img {
-  height: auto;
-}
-
 .ajuste {
   display: flex;
   flex-direction: row;
 }
 
 #carouselExampleFade {
+  height: auto;
   margin-bottom: 25px;
+}
+#carouselExampleFade img {
+  height: auto;
 }
 
 #volver-arriba i {
@@ -85,10 +72,6 @@ section#Contacto {
 }
 #volver-arriba i:hover {
   color: #121111;
-}
-
-.conoceme-p {
-  font-size: 30px;
 }
 
 /*# sourceMappingURL=styles.css.map */
