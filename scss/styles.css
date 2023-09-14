@@ -1,1 +1,77 @@
-/*# sourceMappingURL=styles.css.map */
+a {
+  font-size: 23px;
+  color: #333;
+  padding: 10px;
+  margin-left: 55px;
+}
+a:hover {
+  background-color: #f0f0f0;
+}
+
+#Contacto {
+  font-size: 20px;
+  background-color: #595763;
+  border-radius: 10px;
+  padding: 30px;
+}
+
+h1, h2, h3 {
+  font-family: "Gruppo", sans-serif;
+}
+
+h1 {
+  font-size: 40px;
+  padding-left: 10px;
+}
+
+h2 {
+  font-size: 25px !important;
+  padding-left: 10px;
+}
+
+h3 {
+  margin-bottom: 0%;
+  text-align: center;
+  font-size: 40px;
+  color: #222;
+  padding: 30px;
+}
+
+.contenedor-uno {
+  line-height: 2;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.redes-sociales {
+  gap: 10px;
+}
+
+.icono-redondo {
+  width: 50px;
+  height: 50px;
+  border-radius: 30%;
+}
+
+.ajuste {
+  display: flex;
+  flex-direction: row;
+}
+
+#carouselExampleFade {
+  height: auto;
+  margin-bottom: 25px;
+}
+#carouselExampleFade img {
+  height: auto;
+}
+
+#volver-arriba i {
+  color: #fff;
+  transition: color 0.3s ease;
+}
+#volver-arriba i:hover {
+  color: #121111;
+}/*# sourceMappingURL=styles.css.map */

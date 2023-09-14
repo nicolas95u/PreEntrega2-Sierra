@@ -4,6 +4,7 @@ a {
   padding: 10px;
   margin-left: 55px;
 }
+
 a:hover {
   background-color: #f0f0f0;
 }
@@ -21,10 +22,12 @@ h1, h2, h3 {
 
 h1 {
   font-size: 40px;
+  padding-left: 10px;
 }
 
 h2 {
   font-size: 25px !important;
+  padding-left: 10px;
 }
 
 h3 {
@@ -62,6 +65,7 @@ h3 {
   height: auto;
   margin-bottom: 25px;
 }
+
 #carouselExampleFade img {
   height: auto;
 }
@@ -70,8 +74,9 @@ h3 {
   color: #fff;
   transition: color 0.3s ease;
 }
+
 #volver-arriba i:hover {
   color: #121111;
-}
+} 
 
 /*# sourceMappingURL=styles.css.map */
